@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eee;
+}
+
+.cv {
+  max-width: 700px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+}
+
+.header {
+  border-bottom: 3px solid green;
+  padding-bottom: 15px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.section h2 {
+  color: green;
+}
+
+.skill-list {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  background: #e8f5e9;
+  padding: 5px 12px;
+  border-radius: 15px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  margin: 0 0 5px;
+}
